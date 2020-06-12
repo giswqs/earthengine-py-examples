@@ -1,4 +1,4 @@
-# # GitHub URL: https://github.com/giswqs/qgis-earthengine-examples/tree/master/Algorithms/Segmentation/segmentation_snic.py
+# # GitHub URL: https://github.com/giswqs/earthengine-py-examples/tree/master/Algorithms/Segmentation/segmentation_snic.py
 
 # import ee 
 # from ee_plugin import Map 
