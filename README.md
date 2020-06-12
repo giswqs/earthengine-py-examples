@@ -8,35 +8,22 @@ A collection of **300+** Python examples for using Google Earth Engine with the 
 
 ## 1. Description
 
-This repository is a collection of **300+** Python examples for the [Google Earth Engine plugin for QGIS](https://github.com/gee-community/qgis-earthengine-plugin). I developed these Python examples by converting *all* the JavaScript examples (except those not yet supported by plugin) from the Google Earth Engine [API Documentation](https://developers.google.com/earth-engine/). Additionally, some examples were adapted from [Gena's examples](https://github.com/gee-community/qgis-earthengine-plugin/tree/master/examples) and the Earth Engine [API examples](https://github.com/google/earthengine-api/tree/master/python/examples). Kudos to [Gennadii Donchyts](https://github.com/gena) for developing this amazing Google Earth Engine plugin for QGIS.
+This repository is a collection of **300+** Python examples for using Google Earth Engine with the [geemap](https://github.com/giswqs/geemap) Python package. I developed these Python examples by converting *all* the JavaScript examples (except those not yet supported by geemap) from the Google Earth Engine [API Documentation](https://developers.google.com/earth-engine/).  
 
 ## 2. Usage
 
 * **Step 1:** [Sign up](https://earthengine.google.com/signup/) for [Google Earth Engine](https://earthengine.google.com/).
-* **Step 2:** Install [QGIS](https://qgis.org/).
-* **Step 3:** Install the [Google Earth Engine Plugin for QGIS](https://gee-community.github.io/qgis-earthengine-plugin/) and authenticate Google Earth Engine.
-* **Step 4:** Git clone or [download](https://github.com/giswqs/earthengine-py-examples/archive/master.zip) this repository.
-* **Step 5:** Open the Python console in QGIS and load any downloaded Python script into the QGIS Python Editor.
-* **Step 6:** Click the *Run script* button on the Python Editor to execute the script.
-* **Step 7:** Zoom in/out the QGIS Canvas to inspect the results.
+* **Step 2:** Follow the instructions [here](https://github.com/giswqs/geemap#installation) to install geemap and Jupyter notebook.
+* **Step 3:** Open Jupyter notebook and type the following script:
 
-## 3. Add QGIS Basemaps
+![screenshot](https://i.imgur.com/Pm1JGCh.png)
 
-* Open the Python console in QGIS and load the Python script ([Basemaps/qgis_basemaps.py](https://github.com/giswqs/earthengine-py-examples/tree/master/Basemaps/qgis_basemaps.py)) into the QGIS Python Editor.
-* Click the *Run script* button on the Python Editor to execute the script. This will add many basesmaps as XYZ tiles to QGIS. Select and double click any basemap under XYZ Ttiles to be added to QGIS Canvas. See the screenshot below.
-* Alternatively, you can install the QGIS [QuickMapServices](https://plugins.qgis.org/plugins/quick_map_services/) plugin. After installing the plugin, go to _QGIS_ -- _Web_ --_QuickMapServices_ -- _Settings_ -- _More services_ -- _Get contributed pack_ -- _Save_.  
 
-![QGIS Basemaps](https://i.imgur.com/DWL7rrd.png)
+## 3. Demo
 
-## 4. Earth Engine QGIS Plugin Demo
+![demo](https://i.imgur.com/PVxUV5f.gif)
 
-![qgis-gee-demo](https://i.imgur.com/OuWQlsF.gif)
-
-## 5. Earth Engine and Folium Interactive Mapping
-
-If you do not have QGIS installed on your computer, you can try Earth Engine API and the folium library for interactive mapping. A Jupyter notebook example can be found [here](https://github.com/giswqs/earthengine-py-examples/blob/master/Folium/ee-api-folium-setup.ipynb). 
-
-## 6. QGIS Examples
+## 4. Examples
 
 The Table of Contents below mimics the structure of the Google Earth Engine [API Documentation](https://developers.google.com/earth-engine). I strongly encourage you to check out the API Documentation if you need an in-depth explanation of each Python example. Please note that the list below does not include all the Python examples contained in this repository. You are welcome to explore the repository and find more examples to suit your needs. 
 
